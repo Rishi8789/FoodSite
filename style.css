@@ -1,0 +1,72 @@
+
+.nevigation{
+    background-color: rgb(91 143 38);
+    border: 3px solid black;
+    border-radius: 25px;
+    
+}
+.img-responsive{
+    max-width:100%;
+}
+.nevigation ul{
+    overflow: auto;
+}
+.nevigation li{
+    float:right;
+    list-style: none;
+    margin-right:30px;
+
+}
+.anchor{
+    color:black;
+    text-decoration: none;
+}
+.anchor:hover{
+    color: rgb(179, 179, 192);
+}
+.btn:hover{
+    color: rgb(21, 28, 1);
+    background-color: burlywood;
+    border: 3px solid black;
+}
+.search{
+    width: 60%;
+    height: 22px;
+    font-size: 17px;
+} .search:hover{
+    background-color:burlywood ;
+    border: 2px solid black;
+}
+.hero_image{
+   background-image: url('foods.jpg');
+   -webkit-background-size:cover;
+   background-size:cover;
+   height: 100vh;
+}
+.hero_wrapper{
+    color: rgb(241, 245, 235);
+    padding-left:30%;
+    padding-right: 30%;
+    padding-top:15%;
+}
+.hero_wrapper h1{
+    color: rgb(180, 243, 34);
+}
+/* product section*/
+ 
+.product{
+    width:100%;
+    
+}
+.product_list{
+    overflow: auto;
+    float: right;
+    width:32%;
+    margin-left:5px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+.product_list h2 {
+    font-size: 24px;
+    color: rgb(230 0 81 / 86%);
+}
